@@ -1,6 +1,6 @@
 openresty
 
-This module can be used to install openresty from source on Linux systems (CentOs/Amazn Linux/Ubuntu).
+This module can be used to install openresty from source on Linux systems (CentOs/Amazn Linux/Redhat).
 This module compiles openresty from source with the following modules:
 HTTP SSL - Lua JIT - PCRE and PCRE JIT
 
