@@ -9,6 +9,8 @@ Clone the module to your modulepath on the puppet server (Usually /etc/puppet/mo
 To test the module , you may use the below from the modules directory :-
 
 sudo puppet apply openresty/tests/init.pp
+
+Openresty is installed under /usr/local/openresty.
  
 Prerequisites :-
 Your machine should be connected to the internet with the yum/apt package repo reachable.
