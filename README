@@ -1,0 +1,14 @@
+openresty
+
+This module can be used to install openresty from source on Linux systems (CentOs/Amazn Linux/Ubuntu).
+This module compiles openresty from source with the following modules:
+HTTP SSL - Lua JIT - PCRE and PCRE JIT
+
+Usage :- 
+Clone the module to your modulepath on the puppet server (Usually /etc/puppet/modules directory) and include the class "openresty" in your module files.
+To test the module , you may use the below from the modules directory :-
+
+sudo puppet apply openresty/tests/init.pp
+ 
+Prerequisites :-
+Your machine should be connected to the internet with the yum/apt package repo reachable.
